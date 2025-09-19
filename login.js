@@ -12,8 +12,7 @@ function verificarCredenciais() {
             window.location = "home.html";
         }
         else
-            alert("Senha informada incorretamente");
+            alert("Senha " + senha + " informada incorretamente");
     } else
         alert("E-mail informado incorretamente!");
-
 }
